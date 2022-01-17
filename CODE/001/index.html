@@ -135,5 +135,21 @@
 
     <!-- LINK THAT DIALS A NUMBER -->
     <a href="tel:+243972194053">Call Me</a>
+
+    <!-- OPEN IN A NEW TABS -->
+    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+      >Open in new tab</a
+    >
+
+    <!-- LINK THAT RUN JAVASCRIPT -->
+    <a href="javascript:myFunction()">Run Code</a>
+    <a href="#" onclick="myFunction(); return false">Run Code Again</a>
+    <a href="#!"> Scroll on top</a>
   </body>
 </html>
+
+<script>
+  function myFunction() {
+    alert("goof");
+  }
+</script>
