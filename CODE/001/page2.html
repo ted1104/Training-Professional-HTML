@@ -54,5 +54,47 @@
         <td>12</td>
       </tr>
     </table>
+
+    <h2>COLUMN GROUPS</h2>
+    <table>
+      <!-- colgroup -->
+      <colgroup id="MyColumn">
+        <col id="MyCellue" />
+        <col />
+        <col />
+      </colgroup>
+      <!-- content -->
+      <tr>
+        <th>Nom</th>
+        <th>Prenom</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Teddy</td>
+        <td>Walter</td>
+        <td>29</td>
+      </tr>
+      <tr>
+        <td>Teddy</td>
+        <td>Walter</td>
+        <td>29</td>
+      </tr>
+      <tr>
+        <td>Teddy</td>
+        <td>Walter</td>
+        <td>29</td>
+      </tr>
+    </table>
   </body>
 </html>
+<style>
+  table {
+    border: 1px solid red;
+  }
+  table #MyColumn {
+    background-color: blue;
+  }
+  #MyCellue {
+    background-color: red;
+  }
+</style>
