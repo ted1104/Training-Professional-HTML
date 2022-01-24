@@ -175,6 +175,41 @@
     <h2>LES IDs</h2>
     <div id="special-id"></div>
     <span id="special-id"></span>
+
+    <!-- ACCEPTABLE VALUES -->
+    <!-- For an ID -->
+    <div class="container"></div>
+    <div class="999"></div>
+    <div class="#%LV-||"></div>
+    <div id="____V">...</div>
+    <div id="⌘⌥">...</div>
+    <div id="♥">...</div>
+    <div id="{}">...</div>
+    <div id="©">...</div>
+    <div id="♤₩¤☆€~¥">...</div>
+
+    <!-- INVALIdS -->
+    <div class=" "></div>
+
+    <!-- FOR CLASS -->
+    <div id="results"></div>
+    <div id="results"></div>
+
+    <div class="results"></div>
+    <div class="results"></div>
+
+    <div id="9lions">9lions</div>
+
+    <div id="aDiv">a</div>
+    <div id="aDiv">b</div>
+
+    <h2>LES ATTRIBUTS</h2>
+    <img src="sample.jpg" alt="sample image" value="test" />
+    <!-- 
+      les attributs Data
+     -->
+
+    <div data-submitted="yes" class="user-profile">....some content</div>
   </body>
 </html>
 <style>
@@ -187,4 +222,11 @@
   #MyCellue {
     background-color: red;
   }
+  #aDiv {
+    color: red;
+  }
 </style>
+<script>
+  var html = document.getElementById("aDiv").innerHTML;
+  console.log(html);
+</script>
