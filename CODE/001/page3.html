@@ -145,6 +145,13 @@
 
     <h2>PASSOWRD</h2>
     <input type="password" name="password" id="" placeholder="Mot de passe" />
+
+    <h3>FILE</h3>
+    <form action="uplad.php" method="post" enctype="multipart/form-data">
+      Select file to upload
+      <input type="file" name="fileSubmission" id="fileSubmission" multiple />
+      <input type="submit" value="Telecharger" />
+    </form>
   </body>
   <!-- chargement synchrone -->
   <script src="js/script.js"></script>
