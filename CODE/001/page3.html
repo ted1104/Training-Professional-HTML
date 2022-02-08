@@ -172,6 +172,20 @@
       <input type="range" min="0" max="100" step="2" />
 
       <input type="search" name="search" id="search" />
+      <input type="week" name="semaine" id="semaine" placeholder="the week" />
+      <input type="url" name="url" id="url" placeholder="Tapez ton url" />
+      <input type="datetime-local" name="datetime" id="datetime" />
+      <input type="month" name="mois" id="mois" />
+      <input type="time" name="temps" id="temps" />
+      <input type="datetime" name="meeting" id="meeting" />
+      <input type="date" name="date" id="date" />
+      <input
+        type="image"
+        src="images/profile.jpeg"
+        alt="profile image"
+        width="20"
+        height="20"
+      />
 
       <input type="submit" value="Send" />
       <button type="submit">
@@ -183,6 +197,50 @@
         />
       </button>
       <input type="reset" name="reset" id="reset" value="Reinitiailiser" />
+    </form>
+    <!-- formulaire -->
+    <form action="action.php" method="get"></form>
+    <form action="action.php" method="post">
+      <input type="text" name="lastname" value="Mouse" />
+    </form>
+
+    <form
+      action="action.php"
+      method="POST"
+      target="_blank"
+      accept-charset="UTF-8"
+      enctype="multipart/form-data"
+      autocomplete="off"
+      novalidate
+    ></form>
+
+    <form action="action.php" enctype="multipart/form-data">
+      <input type="file" name="pic" id="pic" />
+      <input type="submit" value="Upload" />
+    </form>
+    <br />
+    <br />
+    <br />
+
+    <form action="action.php">
+      <fieldset>
+        <legend>Informations personnelles</legend>
+        <label for="nom">NOM</label>
+        <input type="text" name="nom" id="nom" /> <br />
+
+        <label for="pnom">PRENOM</label>
+        <input type="text" name="pnom" id="pnom" />
+      </fieldset>
+      <fieldset>
+        <legend>Informations personnelles</legend>
+        <label for="nom">NOM</label>
+        <input type="text" name="nom" id="nom" /> <br />
+
+        <label for="pnom">PRENOM</label>
+        <input type="text" name="pnom" id="pnom" />
+      </fieldset>
+
+      <input type="submit" value="ENREGISTRER" />
     </form>
   </body>
   <!-- chargement synchrone -->
