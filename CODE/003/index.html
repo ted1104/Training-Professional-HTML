@@ -2,8 +2,8 @@
 <html lang="en" manifest="index.appcache">
   <head>
     <meta charset="UTF-8" />
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" />-->
+
     <meta name="application-name" content="OpenStreetMap" />
     <meta name="author" content="Teddy walter" />
     <meta name="description" content="Page Description" />
@@ -15,6 +15,62 @@
     <meta http-equiv="content-type" content="tex/html; charset=ISO-8859-1" />
 
     <meta name="robots" content="noindex" />
+
+    <!-- OG Facebook -->
+    <!-- 
+      https://developers.facebook.com/docs/sharing/webmasters#markup
+      https://ogp.me/
+     -->
+    <meta property="fb:app_id" content="123456789" />
+    <meta property="og:url" content="https://example.com/page.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Content title" />
+    <meta property="og:images" content="https://example/image.jpg" />
+    <meta property="og:description" content="Description Here" />
+    <meta property="og:site_name" content="Site Name" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="article:author" content="" />
+
+    <!-- Twitter -->
+    <!-- 
+      https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started
+      https://developer.twitter.com/fr/docs/cards/validation/validator
+     -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@site_account" />
+    <meta name="twitter:creator" content="@individual_account" />
+    <meta name="twitter:url" content="https://example.com/page.html" />
+    <meta name="twitter:title" content="Content Title" />
+    <meta
+      name="twitter:description"
+      content="Content description less than 200 characters"
+    />
+    <meta name="twitter:image" content="https://example.com/image.jpg" />
+
+    <!-- viewport mobile controle layout -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- autorefresh -->
+
+    <meta http-equiv="refresh" content="20" />
+
+    <!-- tel number desable -->
+
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- redirection -->
+    <!-- <meta http-equiv="refresh" content="5; url=https://www.facebook.com" /> -->
+
+    <!-- web app -->
+    <!-- 
+      android chrome
+      set theme colors
+     -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="black" />
+
+    <!-- IOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
     <title>HTML TRAINING</title>
   </head>
